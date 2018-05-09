@@ -103,6 +103,29 @@ main img {
     margin-bottom: 20px;
 }
 
+table {
+    width: 100%;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: darkgray;
+}
+
+td, th {
+    border: 1px solid #ddd;
+}
+
 footer {
     background-color: white;
     height: 40px;
